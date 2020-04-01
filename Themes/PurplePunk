@@ -6,7 +6,7 @@
   MenuTextFont = "Trebuchet MS,sans serif:pixelsize=12";
   WorkspaceBack = (
     tpixmap,
-    "/home/patrick/GNUstep/Library/WindowMaker/Backgrounds/City.jpg",
+    "/home/$USER/GNUstep/Library/WindowMaker/Backgrounds/City.jpg",
     gray20
   );
   UTitleBack = (hgradient, mediumpurple4, black);
