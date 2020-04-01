@@ -11,9 +11,13 @@
   ),
   (Run..., EXEC, "%a(Run,Type command to run:)"),
   (Term, SHORTCUT, "Control+Mod1+t", EXEC, "xfce4-terminal"),
-  (Firefox, SHORTCUT, "Control+Mod1+f" , EXEC, firefox),
+  (Firefox, SHORTCUT, "Control+Mod1+f", EXEC, firefox),
   (Workspaces, WORKSPACE_MENU),
-  (Applications, (Editors, (Vim, EXEC, vim)), (Multimedia)),
+  (
+    Applications,
+    (Editors, (Vim, EXEC, vim)),
+    (Multimedia, (QMMP, EXEC, "/usr/bin/qmmp"))
+  ),
   (
     Utils,
     (Calculator, EXEC, xcalc),
